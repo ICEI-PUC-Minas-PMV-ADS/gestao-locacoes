@@ -38,5 +38,5 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Este projeto tem como público-alvo profissionais e empreendedores que atuam no setor de locação de produtos, este público estaria na faixa etaria média entre 35 a 50 anos . Pois tais indivíduos desempenham papéis-chave na gestão e operação de empresas de aluguel, assim abrangendo uma faixa etária que valoriza a eficiência e busca soluções tecnológicas para otimizar processos e manter a competitividade no mercado ajudando no crescimento exponencial de sua empresa.
+Este projeto tem como público-alvo profissionais e empreendedores que atuam no setor de locação de produtos, este público estaria na faixa etária média entre 35 a 50 anos . Pois tais indivíduos desempenham papéis-chave na gestão e operação de empresas de aluguel, assim abrangendo uma faixa etária que valoriza a eficiência e busca soluções tecnológicas para otimizar processos e manter a competitividade no mercado ajudando no crescimento exponencial de sua empresa.
 

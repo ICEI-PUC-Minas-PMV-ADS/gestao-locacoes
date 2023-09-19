@@ -2,7 +2,7 @@
 
 > Pré-requisitos: [Especificação do Projeto](especificacao-do-projeto.md)
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia consiste nas definições de ferramentas e processos a serem adotados pela equipe no desenvolvimento das atividades e dos trabalhos. Dessa forma, manter uma organização pautada no planejamento e na utilização das melhores práticas.
 
 ## Controle de Versão
 
@@ -25,45 +25,54 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
->
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+
+Para o desenvolvimento deste projeto, utilizaremos a metodologia ágil Scrum. O Scrum é uma abordagem iterativa e incremental que permite a entrega rápida e contínua de funcionalidades valiosas. Ele se baseia em equipes multifuncionais que trabalham em sprints (períodos de tempo fixos) para desenvolver, testar e entregar funcionalidades.
 
 ### Divisão de Papéis
 
 Apresente a divisão de papéis entre os membros do grupo.
 
-> **Links Úteis**:
->
-> - [11 Passos Essenciais para Implantar Scrum no seu
->   Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira:
+●	Scrum Master: Rafael
+●	Product Owner: Paulo
+●	Equipe de Desenvolvimento
+Luan Alcântara
+Itamar
+Rafael
+Gabriel
+
+
 
 ### Processo
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+estará estruturado com as seguintes listas: 
 
-> **Links Úteis**:
->
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+●	Product Backlog: Tarefas associadas às histórias de usuários que utilizarão a ferramenta. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+●	To Do: Esta lista representará o Sprint Backlog e deverá conter todas as tarefas a serem desenvolvidas na semana por cada desenvolvedor.
+●	Doing: Quando uma tarefa tiver sido iniciada, ela será movida para está fase.
+●	Review: Após conclusão da tarefa, ela será movida para esta etapa para avaliação dos demais membros da equipe.
+●	Done: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
+
+O quadro kanban do grupo a ser utilizado no desenvolvimento do projeto está disponível através no seguinte link: https://trello.com/invite/b/kBLaftCj/ATTI5c3c662dab882629acac8e345554aba612749BA8/projeto-intranet 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/assets/128554958/62880b64-f8fa-4688-85e3-8275c6ac9695)
+
+Este projeto será conduzido em estreita colaboração com os stakeholders, e a comunicação será fundamental para o sucesso. A equipe estará comprometida com a entrega de um produto de alta qualidade que atenda às necessidades das empresas de locação de produtos.
+
+Este projeto tem o potencial de otimizar significativamente os processos de locação de produtos, aumentar a eficiência das empresas e melhorar a experiência dos clientes. Com a aplicação web proposta, estamos prontos para enfrentar os desafios do mercado de locações de produtos de forma inovadora e eficaz.
+
+
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
+- Editor de código: VS Code
+- Ferramentas de comunicação: Whatsapp, teams, e-mail
 - Ferramentas de desenho de tela (_wireframing_)
 
 O editor de código foi escolhido porque ele possui uma integração com o
@@ -72,9 +81,10 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+ferramentas foram que empregadas no desenvolvimento do projeto:
 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**:
->
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+GIT hub: trata-se de um serviço online que permite o trabalho compatilhado dos desenvolvedores, de forma que seja possivel manter todos os registros das atividades realizadas no código.
+Trello: Utilizado para divisão e gestao das demandas e atibidades
+Whatsapp: Toda comunicação centralizada, facilitou a comucação ativa e radipa entre os membros.
+Teams: A ferramenta possibilitou reunioes, complartilhamento de arquivos e uma comunicação completa do trabalho.
+

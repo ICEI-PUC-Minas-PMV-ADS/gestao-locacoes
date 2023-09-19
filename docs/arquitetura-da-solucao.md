@@ -26,6 +26,7 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 ## Projeto da Base de Dados
 
 Este projeto de base de dados tem como objetivo criar a estrutura de armazenamento de informações essencial para a aplicação de gestão de locação de produtos. A base de dados será projetada para acomodar informações detalhadas sobre clientes, itens disponíveis para locação e registros de locações, incluindo dados como nome, descrição, valor, status e outros atributos relevantes. A estrutura de banco de dados será desenvolvida para garantir eficiência, escalabilidade e integridade dos dados, permitindo que a aplicação gerencie as operações de locação de forma eficaz e segura
+
 Consideraremos a criação das seguintes tabelas:
 
 1. Tabela "Clientes":

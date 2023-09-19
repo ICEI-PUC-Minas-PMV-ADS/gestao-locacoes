@@ -1,7 +1,5 @@
 # Metodologia
 
-> Pré-requisitos: [Especificação do Projeto](especificacao-do-projeto.md)
-
 A metodologia consiste nas definições de ferramentas e processos a serem adotados pela equipe no desenvolvimento das atividades e dos trabalhos. Dessa forma, manter uma organização pautada no planejamento e na utilização das melhores práticas.
 
 ## Controle de Versão

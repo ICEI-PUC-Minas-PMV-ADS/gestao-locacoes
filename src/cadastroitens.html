@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gestão de locação - Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+    <img src="logo.png" alt="Logo da Minha Empresa" style="max-width: 200px; max-height: 100px;"><h1>Gestão de locação</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cadastroitens.html">Cadastro de itens</a></li>
+        <li><a href="Cadastroclientes.html">Cadatro de clientes</a></li>
+        <li><a href="locacoes.html">Locações</a></li>
+        <li><a href="configuracoes.html">Configurações</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2>Cadastro de Itens para Aluguel</h2>
+        <form action="processar_cadastro.php" method="post" enctype="multipart/form-data">
+          <label for="nome">Nome do Item:</label>
+          <input type="text" id="nome" name="nome" required><br>
+      
+          <label for="descricao">Descrição:</label><br>
+          <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br>
+      
+          <label for="valor">Valor (R$):</label>
+          <input type="number" id="valor" name="valor" step="0.01" required><br>
+      
+          <label for="qtde">Quantidade:</label>
+          <input type="number" id="valor" name="qtde" step="1" required><br>
+
+
+          <label for="foto">Foto:</label>
+          <input type="file" id="foto" name="foto" accept="image/*" required><br>
+      
+          <input type="submit" value="Cadastrar">
+
+          <h2>Itens Cadastrados para Aluguel</h2>
+
+          <!-- Tabela para listar os itens -->
+          <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Valor (R$)</th>
+                <th>Imagem</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Exemplo de item -->
+              <tr>
+                <td>Mesas</td>
+                <td>4 lugares metal</td>
+                <td>50.00</td>
+                <td><img src="exemplo1.jpg" alt="Exemplo 1"></td>
+                <td><button onclick="alterarItem(1)">Alterar</button></td>
+              </tr>
+        
+              <!-- Exemplo de item -->
+              <tr>
+                <td>Cadeiras</td>
+                <td>sem bracos de metal</td>
+                <td>25.00</td>
+                <td><img src="exemplo2.jpg" alt="Exemplo 2"></td>
+                <td><button onclick="alterarItem(2)">Alterar</button></td>
+              </tr>
+
+            </tbody>
+          </table>
+
+
+    </main>
+    <footer>
+      <p>&copy; 2023 - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

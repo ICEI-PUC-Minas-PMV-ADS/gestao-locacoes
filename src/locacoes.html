@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gestão de locação - Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+    <img src="logo.png" alt="Logo da Minha Empresa" style="max-width: 200px; max-height: 100px;"><h1>Gestão de locação</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cadastroitens.html">Cadastro de itens</a></li>
+        <li><a href="Cadastroclientes.html">Cadatro de clientes</a></li>
+        <li><a href="locacoes.html">Locações</a></li>
+        <li><a href="configuracoes.html">Configurações</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2>Gerenciamento de Locações</h2>
+      
+        <!-- Formulário de Cadastro de Locações -->
+        <h3>Cadastrar Nova Locação</h3>
+        <form action="processar_cadastro_locacao.php" method="post">
+          <label for="cliente">Cliente:</label>
+          <select id="cliente" name="cliente" required>
+            <option value="">Selecione um cliente</option>
+            <!-- Substituir os exemplos abaixo pelos dados reais dos clientes -->
+            <option value="cliente1">Nome do Cliente 1</option>
+            <option value="cliente2">Nome do Cliente 2</option>
+          </select><br>
+      
+          <label for="item">Item:</label>
+          <select id="item" name="item" required>
+            <option value="">Selecione um item</option>
+            <!-- Substituir os exemplos abaixo pelos dados reais dos clientes -->
+            <option value="item1">Nome do Item 1</option>
+            <option value="item2">Nome do Item 2</option>
+          </select><br>
+      
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data" required><br>
+      
+          <label for="descricao">Descrição:</label><br>
+          <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br>
+      
+          <label for="quantidade">Quantidade:</label>
+          <input type="number" id="quantidade" name="quantidade" required><br>
+      
+          <label for="forma_pagamento">Forma de Pagamento:</label>
+          <select id="forma_pagamento" name="forma_pagamento" required>
+            <option value="">Selecione a forma de pagamento</option>
+            <option value="agendado">Agendado</option>
+            <option value="confirmado">Confirmado aguardando pagamento</option>
+            <option value="pago">Pago</option>
+            <option value="cancelado">Cancelado</option>
+          </select><br>
+      
+          <input type="submit" value="Cadastrar Locação">
+        </form>
+      
+        <!-- Listagem de Locações -->
+        <h3>Listagem de Locações</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Cliente</th>
+              <th>Item</th>
+              <th>Data</th>
+              <th>Descrição</th>
+              <th>Quantidade</th>
+              <th>Forma de Pagamento</th>
+              <th>Status</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Exemplo de locação -->
+            <tr class="agendado">
+              <td>Nome do Cliente 1</td>
+              <td>Nome do Item 1</td>
+              <td>2023-09-25</td>
+              <td>Descrição da Locação 1</td>
+              <td>2</td>
+              <td>Agendado</td>
+              <td>
+                <select>
+                  <option value="agendado">Agendado</option>
+                  <option value="confirmado">Confirmado aguardando pagamento</option>
+                  <option value="pago">Pago</option>
+                  <option value="cancelado">Cancelado</option>
+                </select>
+              </td>
+              <td>
+                <button onclick="editarLocacao(1)">Editar</button>
+                <button onclick="excluirLocacao(1)">Excluir</button>
+              </td>
+            </tr>
+      
+            <!-- Exemplo de locação -->
+            <tr class="confirmado">
+              <td>Nome do Cliente 2</td>
+              <td>Nome do Item 2</td>
+              <td>2023-09-26</td>
+              <td>Descrição da Locação 2</td>
+              <td>3</td>
+              <td>Confirmado aguardando pagamento</td>
+              <td>
+                <select>
+                  <option value="agendado">Agendado</option>
+                  <option value="confirmado">Confirmado aguardando pagamento</option>
+                  <option value="pago">Pago</option>
+                  <option value="cancelado">Cancelado</option>
+                </select>
+              </td>
+              <td>
+                <button onclick="editarLocacao(2)">Editar</button>
+                <button onclick="excluirLocacao(2)">Excluir</button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+<b></b>
+        <h3>Calendário</h3>
+    </section>
+    <iframe src="https://calendar.google.com/calendar/embed?src=seu-email%40gmail.com&ctz=America%2FSao_Paulo"
+        style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        
+
+
+      </main>
+      
+    <footer>
+      <p>&copy; 2023 - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

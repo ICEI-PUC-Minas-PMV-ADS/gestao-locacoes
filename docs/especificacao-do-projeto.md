@@ -4,14 +4,14 @@ A definição do problema foi formada a partir de análises dos usuários que ma
 
 ## Personas
 
-|        |                                 Amanda Ribeiro           |      
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%202.jpg?raw=true"> |                                 Amanda Ribeiro           |      
 | -------------------- | ------------------------------------------ |
 | Idade : 33           | Hobbies : Viajar pelo mundo , Ler livros |                                           |  
 | Ocupação : Proprietária de uma empresa de utensílios para festas  | Motivações : Crescimento do Negócio , Satisfação do cliente , Melhor organização Operacional |             
 | Aplicativos : Linkedin , Instagram , WhatsApp | Frustações : Conflitos em datas de agendamento , Problemas relacionados ao Pagamento , Dificil Organização de Estoque |                                                                     
                       
 
-|        |                                 Fernando Alencar          |      
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> |                                 Fernando Alencar          |      
 | -------------------- | ------------------------------------------ |
 | Idade : 47           | Hobbies :Ler , Ouvir Musicas |                                           |  
 | Ocupação : Diretor Executivo de Empresa De Marketing.  | Motivações : Manter Competitividade , Eficiência Operacional , Adesão a Tecnologia |             

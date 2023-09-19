@@ -1,6 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Em um ambiente de mercado acirrado no mundo dos negócios, manter um sistema que permita ao usuário gerenciar seu negócio, se torna crucial no ambiente corporativo, podendo custar a solidez e até mesmo a permanência no mercado.
+
+Para empresas do ramo de aluguel, independente do objeto e gestão dos processos de locação é a parte crucial no funcionamento da empresa. Para as voltaras para o segmento de utensílios para festas esta presente nas rotinas do dia a dia, e tambem seu correto funcionando que irá ser decisivo para o correto desenvolver das atividades daquela organização.
+Este projeto consiste em desenvolver uma aplicação web para gestão de locação de produtos, fornecendo às empresas soluções eficazes para otimizar seus processos de locação.
+
 
 ## Problema
 

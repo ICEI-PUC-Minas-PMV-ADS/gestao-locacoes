@@ -15,7 +15,21 @@ A definição do problema foi formada a partir de análises dos usuários que ma
 | -------------------- | ------------------------------------------ |
 | Idade : 47           | Hobbies :Ler , Ouvir Musicas |                                           |  
 | Ocupação : Diretor Executivo de Empresa De Marketing.  | Motivações : Manter Competitividade , Eficiência Operacional , Adesão a Tecnologia |             
-| Aplicativos : Linkedin , Twitter , ClubHouse | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |                                                                     
+| Aplicativos : Linkedin , Twitter , ClubHouse | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |  
+
+
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> |                                 Fernando Alencar          |      
+| -------------------- | ------------------------------------------ |
+| Idade : 26           | Hobbies :Estudar, Dançar |                                           |  
+| Ocupação : Enfermeira  | Motivações : Organizar festas para a família e sua filha |             
+| Aplicativos : Linkedin , Twitter : Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados. |    
+
+
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> |                                 Fernando Alencar          |      
+| -------------------- | ------------------------------------------ |
+| Idade : 30           | Hobbies :Jogar bola , jogar Games |                                           |  
+| Ocupação :Professor de Educação Física  | Motivações : Organizar eventos esportivos e recreativos, artigos esportivos |             
+| Aplicativos : WhatsApp , Instagram | Frustações : Garantir que todos os participantes tenham acesso aos equipamentos necessários, evitar a compra de itens caros e pouco utilizados. |    
 
 ## Histórias de Usuários
 

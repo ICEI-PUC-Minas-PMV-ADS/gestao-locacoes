@@ -18,14 +18,14 @@ A definição do problema foi formada a partir de análises dos usuários que ma
 | Aplicativos : Linkedin , Twitter , ClubHouse | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |  
 
 
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-2/docs/img/Enfermeira%20persona.jpg?raw=true"> |                                 Clara Maria          |      
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Enfermeira%20persona.jpg?raw=true"> |                                 Clara Maria          |      
 | -------------------- | ------------------------------------------ |
 | Idade : 26           | Hobbies :Estudar, Dançar |                                           |  
 | Ocupação : Enfermeira  | Motivações : Organizar festas para a família e sua filha |             
 | Aplicativos : Linkedin , Twitter : Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados. |    
 
 
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-2/docs/img/Ed%20fisica%20Persona.jpg?raw=true">  |                                 Joaquim   Ferreira         |      
+|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Ed%20fisica%20Persona.jpg?raw=true">  |                                 Joaquim   Ferreira         |      
 | -------------------- | ------------------------------------------ |
 | Idade : 30           | Hobbies :Jogar bola , jogar Games |                                           |  
 | Ocupação :Professor de Educação Física  | Motivações : Organizar eventos esportivos e recreativos, artigos esportivos |             

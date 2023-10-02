@@ -4,53 +4,47 @@ A definição do problema foi formada a partir de análises dos usuários que ma
 
 ## Personas
 
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%202.jpg?raw=true"> |                                 Amanda Ribeiro           |      
-| -------------------- | ------------------------------------------ |
-| Idade : 33           | Hobbies : Viajar pelo mundo , Ler livros |                                           |  
-| Ocupação : Proprietária de uma empresa de utensílios para festas  | Motivações : Crescimento do Negócio , Satisfação do cliente , Melhor organização Operacional |             
-| Aplicativos : Linkedin , Instagram , WhatsApp | Frustações : Conflitos em datas de agendamento , Problemas relacionados ao Pagamento , Dificil Organização de Estoque |                                                                     
-                      
+| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%202.jpg?raw=true"> | Amanda Ribeiro                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Idade : 33                                                                                                                                                 | Hobbies : Viajar pelo mundo , Ler livros                                                                              |
+| Ocupação : Proprietária de uma empresa de utensílios para festas                                                                                           | Motivações : Crescimento do Negócio , Satisfação do cliente , Melhor organização Operacional                          |
+| Aplicativos : Linkedin , Instagram , WhatsApp                                                                                                              | Frustações : Conflitos em datas de agendamento , Problemas relacionados ao Pagamento , Dificil Organização de Estoque |
 
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> |                                 Fernando Alencar          |      
-| -------------------- | ------------------------------------------ |
-| Idade : 47           | Hobbies :Ler , Ouvir Musicas |                                           |  
-| Ocupação : Diretor Executivo de Empresa De Marketing.  | Motivações : Manter Competitividade , Eficiência Operacional , Adesão a Tecnologia |             
-| Aplicativos : Linkedin , Twitter , ClubHouse | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |  
+| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> | Fernando Alencar                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Idade : 47                                                                                                                                                 | Hobbies :Ler , Ouvir Musicas                                                                                       |
+| Ocupação : Diretor Executivo de Empresa De Marketing.                                                                                                      | Motivações : Manter Competitividade , Eficiência Operacional , Adesão a Tecnologia                                 |
+| Aplicativos : Linkedin , Twitter , ClubHouse                                                                                                               | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |
 
+| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Enfermeira%20persona.jpg?raw=true"> | Clara Maria                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Idade : 26                                                                                                                                                          | Hobbies :Estudar, Dançar                                 |
+| Ocupação : Enfermeira                                                                                                                                               | Motivações : Organizar festas para a família e sua filha |
+| Aplicativos : Linkedin , Twitter : Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados.                        |
 
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Enfermeira%20persona.jpg?raw=true"> |                                 Clara Maria          |      
-| -------------------- | ------------------------------------------ |
-| Idade : 26           | Hobbies :Estudar, Dançar |                                           |  
-| Ocupação : Enfermeira  | Motivações : Organizar festas para a família e sua filha |             
-| Aplicativos : Linkedin , Twitter : Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados. |    
-
-
-|      <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Ed%20fisica%20Persona.jpg?raw=true">  |                                 Joaquim   Ferreira         |      
-| -------------------- | ------------------------------------------ |
-| Idade : 30           | Hobbies :Jogar bola , jogar Games |                                           |  
-| Ocupação :Professor de Educação Física  | Motivações : Organizar eventos esportivos e recreativos, artigos esportivos |             
-| Aplicativos : WhatsApp , Instagram | Frustações : Garantir que todos os participantes tenham acesso aos equipamentos necessários, evitar a compra de itens caros e pouco utilizados. |    
+| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Ed%20fisica%20Persona.jpg?raw=true"> | Joaquim Ferreira                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Idade : 30                                                                                                                                                           | Hobbies :Jogar bola , jogar Games                                                                                                               |
+| Ocupação :Professor de Educação Física                                                                                                                               | Motivações : Organizar eventos esportivos e recreativos, artigos esportivos                                                                     |
+| Aplicativos : WhatsApp , Instagram                                                                                                                                   | Frustações : Garantir que todos os participantes tenham acesso aos equipamentos necessários, evitar a compra de itens caros e pouco utilizados. |
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO...  | QUERO/PRECISO ... | PARA ...              |
-| -------------------- | ---------------------------------- | -------------------------------------- |
-| Amanda Ribeiro   | Alocar Produtos do Estoque e Gerencia-los         | Melhor Gerenciamento do Estoque               |
-| Amanda Ribeiro   | Possibilidade de agendamentos de produtos previamente pelos clientes               | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
-| Amanda Ribeiro   | Ter a disponibilidade de fazer alterações nos produtos         | Mais praticidade e melhor usuabilidade para o usuário                |
-| Fernando Alencar      | Deixar o sistema rápido e responsivo| Visando na competitividade do mercado |
-| Fernando Alencar   | Busca precisas a produtos catalogados           | Melhorar a Eficiência e rapidez do usuário              |
-| Fernando Alencar       | Adaptação a tecnologia e suas funcionalidades        | Visando estar em constante mudança no mercado e facilitar as vendas |
-| Amanda Ribeiro   |  Ferramenta que cadastre usuários          | Para melhor segurança e Conforto do usuario e da Empresa              |
-| Clara Maria      | Conseguir escolher produtos para Festas       | Facilitar a escolha de certos produtos e comm um bom orçamento |
-| Joaquim Ferreira   |  Diversidade e fácil utilização da ferramenta de aluguel         | Facilitar o processo de aluguel de produtos especificos             |
-| Joaquim Ferreira       | Definição de data para retirada e entrega dos produtos       | Melhor planejamento de tempo  |
-| Clara Maria   |   Pesquisa especifica pelo produto         | Rapidez e eficiência na compra              |
-
-
-
+| EU COMO...       | QUERO/PRECISO ...                                                    | PARA ...                                                            |
+| ---------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Amanda Ribeiro   | Alocar Produtos do Estoque e Gerencia-los                            | Melhor Gerenciamento do Estoque                                     |
+| Amanda Ribeiro   | Possibilidade de agendamentos de produtos previamente pelos clientes | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
+| Amanda Ribeiro   | Ter a disponibilidade de fazer alterações nos produtos               | Mais praticidade e melhor usuabilidade para o usuário               |
+| Fernando Alencar | Deixar o sistema rápido e responsivo                                 | Visando na competitividade do mercado                               |
+| Fernando Alencar | Busca precisas a produtos catalogados                                | Melhorar a Eficiência e rapidez do usuário                          |
+| Fernando Alencar | Adaptação a tecnologia e suas funcionalidades                        | Visando estar em constante mudança no mercado e facilitar as vendas |
+| Amanda Ribeiro   | Ferramenta que cadastre usuários                                     | Para melhor segurança e Conforto do usuario e da Empresa            |
+| Clara Maria      | Conseguir escolher produtos para Festas                              | Facilitar a escolha de certos produtos e comm um bom orçamento      |
+| Joaquim Ferreira | Diversidade e fácil utilização da ferramenta de aluguel              | Facilitar o processo de aluguel de produtos especificos             |
+| Joaquim Ferreira | Definição de data para retirada e entrega dos produtos               | Melhor planejamento de tempo                                        |
+| Clara Maria      | Pesquisa especifica pelo produto                                     | Rapidez e eficiência na compra                                      |
 
 ## Requisitos
 
@@ -103,9 +97,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Diagrama de casos de uso](img/diagrama-casos-de-uso.png)
 
 > **Links Úteis**:
 >

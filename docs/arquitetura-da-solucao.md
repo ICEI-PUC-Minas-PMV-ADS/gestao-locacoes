@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
- <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Diagrama%20de%20classes.png?raw=true">
+![Diagrama de Classes](img/diagrama-de-classes.png)
 
 ## Modelo ER (Projeto Conceitual)
 
@@ -9,8 +9,6 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
 

@@ -31,6 +31,8 @@
 - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+- [Requisitos Funcionais(RF)](https://pt.wikipedia.org/wiki/Requisito_funcional)
+- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional)
 - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)

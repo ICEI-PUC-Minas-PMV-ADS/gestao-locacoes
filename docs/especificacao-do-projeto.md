@@ -1,5 +1,7 @@
 # Especificações do Projeto
 
+> Pré-requisitos: [Documentação de Contexto](documentacao-de-contexto.md)
+
 A definição do problema foi formada a partir de análises dos usuários que mais utilizam este meio e entrevistas com os mesmos, assim possibilitando a criação das personas e histórias de usuários.
 
 ## Personas
@@ -15,23 +17,23 @@ A definição do problema foi formada a partir de análises dos usuários que ma
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| Eu como ...      | Quero/Preciso ...                                                    | Para ...                                                            |
-| ---------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Amanda Ribeiro   | Alocar Produtos do Estoque e Gerencia-los                            | Melhor Gerenciamento do Estoque                                     |
-| Amanda Ribeiro   | Possibilidade de agendamentos de produtos previamente pelos clientes | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
-| Amanda Ribeiro   | Ter a disponibilidade de fazer alterações nos produtos               | Mais praticidade e melhor usuabilidade para o usuário               |
-| Fernando Alencar | Deixar o sistema rápido e responsivo                                 | Visando na competitividade do mercado                               |
-| Fernando Alencar | Busca precisas a produtos catalogados                                | Melhorar a Eficiência e rapidez do usuário                          |
-| Fernando Alencar | Adaptação a tecnologia e suas funcionalidades                        | Visando estar em constante mudança no mercado e facilitar as vendas |
-| Amanda Ribeiro   | Ferramenta que cadastre usuários                                     | Para melhor segurança e Conforto do usuario e da Empresa            |
-| Clara Maria      | Conseguir escolher produtos para Festas                              | Facilitar a escolha de certos produtos e comm um bom orçamento      |
-| Joaquim Ferreira | Diversidade e fácil utilização da ferramenta de aluguel              | Facilitar o processo de aluguel de produtos especificos             |
-| Joaquim Ferreira | Definição de data para retirada e entrega dos produtos               | Melhor planejamento de tempo                                        |
-| Clara Maria      | Pesquisa especifica pelo produto                                     | Rapidez e eficiência na compra                                      |
+| Eu como ... `Persona` | Quero/Preciso ... `Funcionalidade`                                   | Para ... `Motivo/Valor`                                             |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Amanda Ribeiro        | Alocar Produtos do Estoque e Gerencia-los                            | Melhor Gerenciamento do Estoque                                     |
+| Amanda Ribeiro        | Possibilidade de agendamentos de produtos previamente pelos clientes | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
+| Amanda Ribeiro        | Ter a disponibilidade de fazer alterações nos produtos               | Mais praticidade e melhor usuabilidade para o usuário               |
+| Fernando Alencar      | Deixar o sistema rápido e responsivo                                 | Visando na competitividade do mercado                               |
+| Fernando Alencar      | Busca precisas a produtos catalogados                                | Melhorar a Eficiência e rapidez do usuário                          |
+| Fernando Alencar      | Adaptação a tecnologia e suas funcionalidades                        | Visando estar em constante mudança no mercado e facilitar as vendas |
+| Amanda Ribeiro        | Ferramenta que cadastre usuários                                     | Para melhor segurança e Conforto do usuario e da Empresa            |
+| Clara Maria           | Conseguir escolher produtos para Festas                              | Facilitar a escolha de certos produtos e comm um bom orçamento      |
+| Joaquim Ferreira      | Diversidade e fácil utilização da ferramenta de aluguel              | Facilitar o processo de aluguel de produtos especificos             |
+| Joaquim Ferreira      | Definição de data para retirada e entrega dos produtos               | Melhor planejamento de tempo                                        |
+| Clara Maria           | Pesquisa especifica pelo produto                                     | Rapidez e eficiência na compra                                      |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas abaixo apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
@@ -47,11 +49,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais(RF)](https://pt.wikipedia.org/wiki/Requisito_funcional): correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional): correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android). Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -61,7 +58,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 01  | O projeto deverá ser entregue até o final do semestre |
 | 02  | Não pode ser desenvolvido um módulo de backend        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+> **Orientações dos professores**: Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 ## Diagrama de Casos de Uso
 

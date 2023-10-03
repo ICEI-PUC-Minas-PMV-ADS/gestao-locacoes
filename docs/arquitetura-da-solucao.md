@@ -2,10 +2,6 @@
 
  <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Diagrama%20de%20classes.png?raw=true">
 
-    
-    
-    
-    
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
@@ -23,12 +19,14 @@ Este projeto de base de dados tem como objetivo criar a estrutura de armazenamen
 Consideraremos a criação das seguintes tabelas:
 
 1. Tabela "Clientes":
+
    - `ID` (Chave Primária)
    - `Nome`
    - `Endereço`
    - `Telefone`
 
 2. Tabela "Itens":
+
    - `ID` (Chave Primária)
    - `Nome`
    - `Descrição`
@@ -46,9 +44,9 @@ Consideraremos a criação das seguintes tabelas:
    - `Status` (Valores possíveis: Agendado, Confirmado, Pago, Cancelado)
 
 Relacionamentos:
+
 - Um cliente pode ter várias locações, mas cada locação pertence a um único cliente.
 - Um item pode estar presente em várias locações, mas cada locação inclui um único item.
-
 
 ## Tecnologias Utilizadas
 
@@ -59,10 +57,3 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)

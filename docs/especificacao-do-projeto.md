@@ -1,54 +1,39 @@
 # Especificações do Projeto
 
-A definição do problema foi formada a partir de análises dos usuários que mais utilizam este meio e entrevistas com os mesmos , assim possibilitando a criação das personas e histórias de usuários.
+> Pré-requisitos: [Documentação de Contexto](documentacao-de-contexto.md)
+
+A definição do problema foi formada a partir de análises dos usuários que mais utilizam este meio e entrevistas com os mesmos, assim possibilitando a criação das personas e histórias de usuários.
 
 ## Personas
 
-| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%202.jpg?raw=true"> | Amanda Ribeiro                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Idade : 33                                                                                                                                                 | Hobbies : Viajar pelo mundo , Ler livros                                                                              |
-| Ocupação : Proprietária de uma empresa de utensílios para festas                                                                                           | Motivações : Crescimento do Negócio , Satisfação do cliente , Melhor organização Operacional                          |
-| Aplicativos : Linkedin , Instagram , WhatsApp                                                                                                              | Frustações : Conflitos em datas de agendamento , Problemas relacionados ao Pagamento , Dificil Organização de Estoque |
-
-| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-1/docs/img/Persona%201.jpg?raw=true"> | Fernando Alencar                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Idade : 47                                                                                                                                                 | Hobbies :Ler , Ouvir Musicas                                                                                       |
-| Ocupação : Diretor Executivo de Empresa De Marketing.                                                                                                      | Motivações : Manter Competitividade , Eficiência Operacional , Adesão a Tecnologia                                 |
-| Aplicativos : Linkedin , Twitter , ClubHouse                                                                                                               | Frustações : Dificuldade de adaptação a novas tecnologias do mercado , Concorrência Acirrada , Mal Gestão de Tempo |
-
-| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Enfermeira%20persona.jpg?raw=true"> | Clara Maria                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| Idade : 26                                                                                                                                                          | Hobbies :Estudar, Dançar                                 |
-| Ocupação : Enfermeira                                                                                                                                               | Motivações : Organizar festas para a família e sua filha |
-| Aplicativos : Linkedin , Twitter : Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados.                        |
-
-| <image src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-2023-e2-g2/blob/Rafael0608-patch-3/docs/img/Ed%20fisica%20Persona.jpg?raw=true"> | Joaquim Ferreira                                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Idade : 30                                                                                                                                                           | Hobbies :Jogar bola , jogar Games                                                                                                               |
-| Ocupação :Professor de Educação Física                                                                                                                               | Motivações : Organizar eventos esportivos e recreativos, artigos esportivos                                                                     |
-| Aplicativos : WhatsApp , Instagram                                                                                                                                   | Frustações : Garantir que todos os participantes tenham acesso aos equipamentos necessários, evitar a compra de itens caros e pouco utilizados. |
+|                                                      | Nome             | Idade | Ocupação                                              | Aplicativos                               | Hobbies                                                             | Motivações                                                                                                                  | Frustrações                                                                                                                       |
+| ---------------------------------------------------- | ---------------- | ----- | ----------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| ![Amanda Ribeiro](img/persona-2.jpg)                 | Amanda Ribeiro   | 33    | Proprietária de uma empresa de utensílios para festas | Linkedin, Instagram, WhatsApp             | Viajar pelo mundo, Ler livros                                       | Crescimento do Negócio, Satisfação do cliente, Melhor organização Operacional                                               | Conflitos em datas de agendamento, Problemas relacionados ao Pagamento, Dificil Organização de Estoque                            |
+| ![Fernando Alencar](img/persona-1.jpg)               | Fernando Alencar | 47    | Ler, Ouvir Musicas                                    | Diretor Executivo de Empresa De Marketing | Manter Competitividade, Eficiência Operacional, Adesão a Tecnologia | Linkedin, Twitter, ClubHouse                                                                                                | Dificuldade de adaptação a novas tecnologias do mercado, Concorrência Acirrada, Mal Gestão de Tempo                               |
+| ![Clara Maria](img/persona-enfermeira.jpg)           | Clara Maria      | 26    | Estudar, Dançar                                       | Enfermeira                                | Organizar festas para a família e sua filha                         | Linkedin, Twitter: Encontrar os itens certos para cada festa, evitar gastos excessivos com itens que serão pouco utilizados |
+| ![Joaquim Ferreira](img/persona-educador-fisico.jpg) | Joaquim Ferreira | 30    | Jogar bola, jogar Games                               | Professor de Educação Física              | Organizar eventos esportivos e recreativos, artigos esportivos      | WhatsApp, Instagram                                                                                                         | Garantir que todos os participantes tenham acesso aos equipamentos necessários, evitar a compra de itens caros e pouco utilizados |
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO...       | QUERO/PRECISO ...                                                    | PARA ...                                                            |
-| ---------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Amanda Ribeiro   | Alocar Produtos do Estoque e Gerencia-los                            | Melhor Gerenciamento do Estoque                                     |
-| Amanda Ribeiro   | Possibilidade de agendamentos de produtos previamente pelos clientes | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
-| Amanda Ribeiro   | Ter a disponibilidade de fazer alterações nos produtos               | Mais praticidade e melhor usuabilidade para o usuário               |
-| Fernando Alencar | Deixar o sistema rápido e responsivo                                 | Visando na competitividade do mercado                               |
-| Fernando Alencar | Busca precisas a produtos catalogados                                | Melhorar a Eficiência e rapidez do usuário                          |
-| Fernando Alencar | Adaptação a tecnologia e suas funcionalidades                        | Visando estar em constante mudança no mercado e facilitar as vendas |
-| Amanda Ribeiro   | Ferramenta que cadastre usuários                                     | Para melhor segurança e Conforto do usuario e da Empresa            |
-| Clara Maria      | Conseguir escolher produtos para Festas                              | Facilitar a escolha de certos produtos e comm um bom orçamento      |
-| Joaquim Ferreira | Diversidade e fácil utilização da ferramenta de aluguel              | Facilitar o processo de aluguel de produtos especificos             |
-| Joaquim Ferreira | Definição de data para retirada e entrega dos produtos               | Melhor planejamento de tempo                                        |
-| Clara Maria      | Pesquisa especifica pelo produto                                     | Rapidez e eficiência na compra                                      |
+| Eu como ... `Persona` | Quero/Preciso ... `Funcionalidade`                                   | Para ... `Motivo/Valor`                                             |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Amanda Ribeiro        | Alocar Produtos do Estoque e Gerencia-los                            | Melhor Gerenciamento do Estoque                                     |
+| Amanda Ribeiro        | Possibilidade de agendamentos de produtos previamente pelos clientes | Evitar conflitos que ocorrem com clientes quando se alugam produtos |
+| Amanda Ribeiro        | Ter a disponibilidade de fazer alterações nos produtos               | Mais praticidade e melhor usuabilidade para o usuário               |
+| Fernando Alencar      | Deixar o sistema rápido e responsivo                                 | Visando na competitividade do mercado                               |
+| Fernando Alencar      | Busca precisas a produtos catalogados                                | Melhorar a Eficiência e rapidez do usuário                          |
+| Fernando Alencar      | Adaptação a tecnologia e suas funcionalidades                        | Visando estar em constante mudança no mercado e facilitar as vendas |
+| Amanda Ribeiro        | Ferramenta que cadastre usuários                                     | Para melhor segurança e Conforto do usuario e da Empresa            |
+| Clara Maria           | Conseguir escolher produtos para Festas                              | Facilitar a escolha de certos produtos e comm um bom orçamento      |
+| Joaquim Ferreira      | Diversidade e fácil utilização da ferramenta de aluguel              | Facilitar o processo de aluguel de produtos especificos             |
+| Joaquim Ferreira      | Definição de data para retirada e entrega dos produtos               | Melhor planejamento de tempo                                        |
+| Clara Maria           | Pesquisa especifica pelo produto                                     | Rapidez e eficiência na compra                                      |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas abaixo apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
@@ -64,21 +49,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
-  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-  Lembre-se que cada requisito deve corresponder à uma e somente uma
-  característica alvo da sua solução. Além disso, certifique-se de que
-  todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -88,21 +58,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 01  | O projeto deverá ser entregue até o final do semestre |
 | 02  | Não pode ser desenvolvido um módulo de backend        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> **Orientações dos professores**: Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 ## Diagrama de Casos de Uso
 
 ![Diagrama de casos de uso](img/diagrama-casos-de-uso.png)
-
-> **Links Úteis**:
->
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)

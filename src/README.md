@@ -2,7 +2,7 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+> **Orientações dos professores**: O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
 
 ## Histórico de versões
 
@@ -10,4 +10,4 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 #### Adicionado
 
-- Adicionado ...
+> **Orientações dos professores**: - Adicionado ...

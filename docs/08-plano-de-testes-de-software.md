@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-> Pré-requisitos: [Especificação do Projeto](especificacao-do-projeto.md), [Projeto de Interface](projeto-de-interface.md)
+> Pré-requisitos: [Especificação do Projeto](02-especificacao-do-projeto.md), [Projeto de Interface](04-projeto-de-interface.md)
 
 A tabela a seguir se refere aos planos de teste que garantem o funcionamento adequado da aplicação(sofware).
 

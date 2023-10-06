@@ -1,10 +1,10 @@
 # Arquitetura da Solução
 
-> Pré-requisitos: [Projeto de Interface](projeto-de-interface.md)
+> Pré-requisitos: [Projeto de Interface](04-projeto-de-interface.md)
 
 ## Diagrama de Classes
 
-![Diagrama de Classes](img/diagrama-de-classes.png)
+![Diagrama de Classes](diagrams/04-diagrama-de-classes.png)
 
 ## Modelo ER (Projeto Conceitual)
 

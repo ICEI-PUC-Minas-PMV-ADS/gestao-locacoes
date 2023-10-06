@@ -1,6 +1,6 @@
 # Metodologia
 
-> Pré-requisitos: [Documentação de Especificação](especificacao-do-projeto.md)
+> Pré-requisitos: [Documentação de Especificação](02-especificacao-do-projeto.md)
 
 ## Controle de Versão
 

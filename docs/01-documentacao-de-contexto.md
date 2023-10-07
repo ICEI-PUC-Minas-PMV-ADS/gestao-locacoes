@@ -41,7 +41,11 @@ Acreditamos que essa solução trará benefícios significativos para as empresa
 
 ## Justificativa
 
-Este projeto é justificado pela necessidade premente de soluções eficazes para melhorar a gestão de locações de itens em empresas do setor de aluguel. A ineficiência operacional e a falta de transparência nas operações podem prejudicar a competitividade e a satisfação do cliente. Com o mercado evoluindo rapidamente e as expectativas dos clientes em constante mudança, a necessidade de sistemas de gestão eficientes torna-se ainda mais crucial para o sucesso sustentável das empresas de aluguel de itens. Este projeto visa abordar essas necessidades críticas e fornecer uma solução que traga benefícios tangíveis para as empresas e seus clientes, melhorando a eficiência operacional, a transparência e a qualidade do atendimento.
+Este projeto é justificado pela necessidade premente de soluções eficazes para melhorar a gestão de locações de itens em empresas do setor de aluguel. A ineficiência operacional e a falta de transparência nas operações podem prejudicar a competitividade e a satisfação do cliente.
+
+Com o mercado evoluindo rapidamente e as expectativas dos clientes em constante mudança, a necessidade de sistemas de gestão eficientes torna-se ainda mais crucial para o sucesso sustentável das empresas de aluguel de itens.
+
+Este projeto visa abordar essas necessidades críticas e fornecer uma solução que traga benefícios tangíveis para as empresas e seus clientes, melhorando a eficiência operacional, a transparência e a qualidade do atendimento.
 
 ## Público-Alvo
 

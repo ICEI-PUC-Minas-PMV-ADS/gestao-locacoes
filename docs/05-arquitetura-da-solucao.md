@@ -8,11 +8,29 @@
 
 ## Modelo ER (Projeto Conceitual)
 
-> **Orientações dos professores**: O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
->
-> Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
->
-> A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
+O Diagrama de Entidade-Relacionamento (DER) é uma representação visual crucial que descreve a estrutura da nossa base de dados para a aplicação de gestão de locação de produtos. Este diagrama ilustra as principais entidades e os relacionamentos entre elas, fornecendo uma visão clara e abrangente do sistema de armazenamento de informações.
+
+### Entidades Principais:
+
+1. **Clientes:**
+   - A entidade "Clientes" representa informações sobre os clientes que utilizam nosso sistema de locação de produtos. Ela inclui campos como ID, Nome, Endereço e Telefone.
+
+2. **Itens:**
+   - A entidade "Itens" representa os produtos disponíveis para locação. Ela contém informações como ID, Nome, Descrição, Valor e um campo para o caminho da Foto do item.
+
+3. **Locações:**
+   - A entidade "Locações" armazena registros de todas as transações de locações realizadas no sistema. Ela inclui campos como ID, Cliente_ID, Item_ID, Data, Descrição, Quantidade, Forma_de_Pagamento e Status.
+
+### Relacionamentos Principais:
+
+- **Relacionamento Cliente-Locação:**
+  - Um cliente pode ter várias locações, mas cada locação pertence a um único cliente. Isso é representado pelo relacionamento entre a entidade "Clientes" e "Locações", com a chave estrangeira "Cliente_ID" na tabela "Locações" referenciando a chave primária "ID" na tabela "Clientes".
+
+- **Relacionamento Item-Locação:**
+  - Um item pode estar presente em várias locações, mas cada locação inclui um único item. Isso é representado pelo relacionamento entre a entidade "Itens" e "Locações", com a chave estrangeira "Item_ID" na tabela "Locações" referenciando a chave primária "ID" na tabela "Itens".
+
+O diagrama de entidade-relacionamento é uma ferramenta essencial para compreender a estrutura da base de dados e os relacionamentos entre as entidades, o que é fundamental para o desenvolvimento da aplicação de gestão de locação de produtos. Ele fornece uma base sólida para a criação de consultas e operações que ajudarão a administrar eficazmente as locações de produtos.
+
 
 ## Projeto da Base de Dados
 

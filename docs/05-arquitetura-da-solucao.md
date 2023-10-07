@@ -16,43 +16,41 @@
 
 ## Projeto da Base de Dados
 
-Este projeto de base de dados tem como objetivo criar a estrutura de armazenamento de informações essencial para a aplicação de gestão de locação de produtos.
-
-A base de dados será projetada para acomodar informações detalhadas sobre clientes, itens disponíveis para locação e registros de locações, incluindo dados como nome, descrição, valor, status e outros atributos relevantes.
-
-A estrutura de banco de dados será desenvolvida para garantir eficiência, escalabilidade e integridade dos dados, permitindo que a aplicação gerencie as operações de locação de forma eficaz e segura
-
+Este projeto de base de dados tem como objetivo criar a estrutura de armazenamento de informações essencial para a aplicação de gestão de locação de produtos. A base de dados será projetada para acomodar informações detalhadas sobre clientes, itens disponíveis para locação e registros de locações, incluindo dados como nome, descrição, valor, status e outros atributos relevantes. A estrutura de banco de dados será desenvolvida para garantir eficiência, escalabilidade e integridade dos dados, permitindo que a aplicação gerencie as operações de locação de forma eficaz e segura
 Consideraremos a criação das seguintes tabelas:
 
-1. Clientes:
-
+1. Tabela "Clientes":
    - `ID` (Chave Primária)
    - `Nome`
    - `Endereço`
    - `Telefone`
 
-1. Produtos:
-
+2. Tabela "Itens":
    - `ID` (Chave Primária)
    - `Nome`
    - `Descrição`
    - `Valor`
-   - `Foto` (Caminho para a imagem do item)
 
-1. Locações:
+3. Tabela "Locações":
    - `ID` (Chave Primária)
    - `Cliente_ID` (Chave Estrangeira referenciando a tabela "Clientes")
-   - `Item_ID` (Chave Estrangeira referenciando a tabela "Produtos")
+   - `Item_ID` (Chave Estrangeira referenciando a tabela "Itens")
    - `Data`
    - `Descrição`
    - `Quantidade`
    - `Forma_de_Pagamento`
    - `Status` (Valores possíveis: Agendado, Confirmado, Pago, Cancelado)
+4. Usuarios
+   - `ID` (Chave Primária)
+   - `Nome` 
+   - `Status` 
+   - `Senha` 
+
 
 Relacionamentos:
-
 - Um cliente pode ter várias locações, mas cada locação pertence a um único cliente.
 - Um item pode estar presente em várias locações, mas cada locação inclui um único item.
+
 
 ## Tecnologias Utilizadas
 

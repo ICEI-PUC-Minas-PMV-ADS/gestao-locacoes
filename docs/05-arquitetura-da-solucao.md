@@ -67,4 +67,4 @@ Relacionamentos:
 
 ## Hospedagem
 
-> **Orientações dos professores**: Explique como a hospedagem e o lançamento da plataforma foi feita.
+Neste projeto, optamos por hospedar nosso código-fonte e recursos no GitHub. O GitHub oferece um ambiente confiável para armazenar e colaborar em nosso código. Isso facilita o acompanhamento das mudanças, a colaboração entre nossa equipe e a manutenção de uma versão atualizada do nosso projeto. Além disso, o GitHub nos permite aproveitar recursos como controle de versão, rastreamento de problemas e integração contínua para garantir um desenvolvimento eficiente e de qualidade.

@@ -4,7 +4,7 @@
 
 ## Diagrama de Fluxo
 
-![Diagrama de fluxo](diagrams/02-diagrama-de-fluxo.png)
+![Fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/gestao-locacoes/assets/90798113/454b4249-f568-4dd9-9e42-bfed7ba89d20)
 
 ## Wireframes
 

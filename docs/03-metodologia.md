@@ -33,7 +33,7 @@ A equipe está organizada da seguinte maneira:
 
 - Scrum Master: Rafael
 - Product Owner: Paulo
-- Equipe de Desenvolvimento: Luan Alcântara, Rafael, Gabriel
+- Equipe de Desenvolvimento: Luan Alcântara, Rafael, Gabriel,icaro
 
 ### Processo
 

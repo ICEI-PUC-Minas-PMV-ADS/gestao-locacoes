@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:Banco_De_Dados_da_LocaçãoContext"
+    }
+  }
+}

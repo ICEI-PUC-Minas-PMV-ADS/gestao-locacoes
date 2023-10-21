@@ -3,9 +3,27 @@
 
 @{
     ViewData["Title"] = "Index";
+    string categoryFilter = Request.Query["categoryFilter"];
 }
 
 <h1>Produtos</h1>
+
+<form method="get">
+    <div class="form-group">
+        <label for="categoryFilter">Filtrar por Categoria:</label>
+        <select id="categoryFilter" name="categoryFilter">
+            <option value="">Todas as categorias</option>
+            <option value="Eletrônicos">Eletrônicos</option>
+            <option value="Mobília">Mobília</option>
+            <option value="Imóveis">Imóveis</option>
+            <option value="Mobília">Mobília</option>
+            <option value="Veículos">Veículos</option>
+            <option value="Maquinário">Maquinário</option>
+            <!-- Adicione outras categorias conforme necessário -->
+        </select>
+        <button type="submit" class="btn btn-primary">Filtrar</button>
+    </div>
+</form>
 
 <p>
     <a asp-page="Create">Novo produto</a>
@@ -29,7 +47,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Product)
+        @foreach (var item in Model.Product.Where(p => string.IsNullOrEmpty(categoryFilter) || p.Categorie == categoryFilter))
         {
             <tr>
                 <td>

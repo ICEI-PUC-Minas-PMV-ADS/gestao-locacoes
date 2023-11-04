@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\GestaoLocacoes",
+    "\\src\\GestaoLocacoes\\gestao-de-locacao"
   ],
-  "SelectedNode": "\\C:\\Users\\win10\\Source\\Repos\\gestao-locacoes",
+  "SelectedNode": "\\src\\GestaoLocacoes\\gestao-de-locacao.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-> Pré-requisitos: [Especificação do Projeto](02-especificacao-do-projeto.md), [Projeto de Interface](04-projeto-de-interface.md), [Metodologia](03-metodologia.md), [Arquitetura da Solução](05-arquitetura-da-solucao.md)
+A "Programação de Funcionalidades" é a etapa essencial no desenvolvimento da nossa aplicação de gestão de locações de produtos. Neste contexto, referimo-nos à criação e implementação de todas as funcionalidades e recursos que tornarão a aplicação completa e operacional. Essas funcionalidades incluem a capacidade de cadastrar e gerenciar produtos, clientes, locações, e outras operações relevantes para o funcionamento da aplicação. A programação de funcionalidades é o coração da aplicação, onde as ideias e requisitos são traduzidos em código, permitindo aos usuários interagir e aproveitar todas as facilidades oferecidas pela aplicação. Ela desempenha um papel crítico no sucesso do projeto, garantindo que a aplicação atenda às necessidades dos usuários e funcione de maneira eficaz.
 
 A tabela a seguir mostra a relação dos requisitos com os artefatos criados.
 
@@ -20,8 +20,9 @@ A tabela a seguir mostra a relação dos requisitos com os artefatos criados.
 
 ## Instruções de acesso
 
-> **Orientações dos professores**: Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
->
-> Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
->
-> O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+1. Para acesso as funcionaliades, acessar o link da aplicação: https://github.com/ICEI-PUC-Minas-PMV-ADS/gestao-locacoes.git
+2. Usuario teste
+   Usuario: 2
+   Senha: 123
+3. Efetuar o login no sistema
+4. Acesso as funcionalidades por meio do menu superior.

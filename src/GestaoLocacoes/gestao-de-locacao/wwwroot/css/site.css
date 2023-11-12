@@ -16,3 +16,35 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.pb-3 h1 {
+    text-align: center;
+    text-shadow: 7px 3px 3px #dedede;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px;
+    color: #35503b;
+}
+
+.index-principal {
+    width: 20%
+}
+
+.col-md-4 {
+}
+
+.imagens {
+    margin: 100px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.imagem2 {
+    margin: 100px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.texto-imagem1 {
+    font-size: 19px;
+    font-family: Arial;
+}

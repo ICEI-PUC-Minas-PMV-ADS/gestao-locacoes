@@ -4,26 +4,39 @@
     ViewData["Title"] = "Login";
 }
 
-<h1>Login</h1>
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="d-flex justify-content-center">
+    <div class="mr-0" style="background: rgb(67,33,133);
+background: linear-gradient(270deg, rgba(67,33,133,1) 48%, rgba(73,117,184,1) 100%);padding: 20px; color: white;">
+
+        <h2 class="WelcomeBack">Bem-vindo de volta!</h2><br /><br />
+        <p class="WelcomeText">Estamos entusiasmados por ter você aqui! A festa começa quando você entra. Faça login e comece a explorar nossa incrível variedade de produtos festivos. De aniversários a casamentos, temos tudo o que você precisa para tornar sua celebração inesquecível. Vamos começar a festa!</p>
+    </div>
+    <div class="ml-0" style="background: white;  border-radius: 12px; color: black; padding: 20px;">
+
+        <h2 class="logintext">Login</h2><br /><br />
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
+                <input asp-for="Id" class="form-control" style="background: transparent; border: none; color: black;" />
                 <span asp-validation-for="Id" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
+                <input asp-for="Senha" class="form-control" style="background: transparent; border: none; color: black; font-size: 18px" />
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div><br />
             <div class="form-group">
-                <input type="submit" value="Acessar" class="btn btn-success" />
+                <input type="submit" value="Acessar" class="btn btn-primary" />
             </div>
         </form>
         <h3>@ViewBag.Message</h3>
@@ -32,6 +45,8 @@
 
 
 
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+

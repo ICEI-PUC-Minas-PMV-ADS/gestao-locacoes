@@ -4,11 +4,35 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style type="text/css">
+    
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0px 1px 20px 1px;
+    }
+
+        
+        .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        
+        .table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+</style>
+
+<h1 class="centro">Usuários</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
-</p>
+    <a class="btn btn-primary" asp-action="Create">Novo Usuario</a>
+</p><br />
 <table class="table">
     <thead>
         <tr>

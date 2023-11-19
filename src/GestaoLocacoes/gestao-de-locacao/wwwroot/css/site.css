@@ -14,5 +14,123 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    padding-top: 90px;
+    background-color: #F8F8F8;
+}
+
+
+.index-principal {
+    width: 20%
+}
+
+.col-md-4 {
+}
+
+.imagens {
+    margin: 100px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.imagem2 {
+    margin: 100px;
+    align-items: flex-end;
+    display: flex;
+}
+
+.texto-imagem1 {
+    font-size: 19px;
+    font-family: Arial;
+}
+
+.meu-cabecalho, .meu-cabecalho * {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    display:flex;
+}
+
+.login {
+    background-color: #0d6efd !important;
+    border-radius: 10px;
+    height: 35px;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.mr-0 {
+    height: 500px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0px 0px 24px !important;
+    -webkit-border-radius: 25px 0px 0px 24px !important;
+    -moz-border-radius: 25px 0px 0px 24px !important;
+    padding: 90px !important
+}
+
+.ml-0 {
+    border-radius: 0px 25px 25px 0px !important;
+    -webkit-border-radius: 0px 25px 25px 0px !important;
+    -moz-border-radius: 0px 25px 25px 0px !important;
+    padding: 90px !important;
+    
+
+}
+
+.WelcomeBack {
+    text-align:center;
+    font-size: 42px;
+}
+
+.WelcomeText {
+    font-size: 19px;
+    text-indent: 28px;
+}
+
+.logintext {
+    text-align:center !important;
+}
+
+.Listatitulo {
+    text-align: left;
+}
+
+.Lista {
+    list-style-position: inside;
+    text-align: left;
+    font-size: 19px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: -311px;
+    bottom: 0;
+    width: calc(100vw - -20px);
+    position: relative;
+}
+
+.centro {
+    align-items:center;
+    align-content:center;
+    text-align:center;
+}
+
+.sair {
+    background-color: darkred !important;
+    border-radius: 10px;
+    height: 35px;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size:15px;
 }

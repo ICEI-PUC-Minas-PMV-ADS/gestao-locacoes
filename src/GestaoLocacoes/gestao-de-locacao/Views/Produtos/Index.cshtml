@@ -4,7 +4,33 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Produtos</h1><br />
+
+    <style type="text/css">
+        
+        #table-produtos {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0px 1px 20px 1px;
+        }
+
+            
+            #table-produtos td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            
+            #table-produtos th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #04AA6D;
+                color: white;
+            }
+    </style>
+
+
+<h1 class="centro">Produtos</h1><br />
 
 <p>
     <a class="btn btn-success" asp-action="Create">Novo Produto</a>

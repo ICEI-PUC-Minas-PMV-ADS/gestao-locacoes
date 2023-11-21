@@ -125,10 +125,12 @@
 
 # Referências
 
-- [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-- [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+GOZZI, Marcelo Pupim. Gestão da qualidade em bens e serviços. São Paulo: Person, 2015.
 
-### Página de Referências
+OLIVEIRA, Gesner, 2020, documento eletrônico. Dispinível em:
+https://economia.uol.com.br/noticias/redacao/2020/11/14/falta-carros-locadoras.htm
 
-- [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-- [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+BRASIL. [Constituição (1988)]. Constituição da República Federativa do Brasil de 1988. Brasília, DF: Presidência da República, [1991]. LEI No 8.245, DE 18  DE OUTUBRO DE 1991.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/gestao-locacoes/assets/128554958/9dff720e-8e2e-4dd0-8a4e-cf881f67fbf1)
+
+
